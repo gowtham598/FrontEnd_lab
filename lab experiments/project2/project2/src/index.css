@@ -1,0 +1,32 @@
+/* Root cyber colors */
+:root {
+  --neon-blue: #22d3ee;
+  --neon-purple: #7c3aed;
+  --text-light: #c7d2fe;
+}
+
+/* Base reset */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text-light);
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  font-family: "Orbitron", "Segoe UI", monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Headings glow */
+h1,
+h2,
+h3 {
+  letter-spacing: 0.05em;
+}
+
+/* Cyber pulse */
+* {
+  transition: box-shadow 0.2s ease, color 0.2s ease;
+}

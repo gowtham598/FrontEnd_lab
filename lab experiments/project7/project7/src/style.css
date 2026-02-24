@@ -1,0 +1,87 @@
+/* HOME PAGE */
+.home-hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.home-hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.home-hero p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.feature-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    color: #333;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.feature-card h3 {
+    margin-bottom: 10px;
+}
+
+/* LOGIN CARD */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    color: #333;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.login-card h2 {
+    margin-bottom: 20px;
+}
+
+/* CONTACT PAGE */
+.contact-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.contact-form-box {
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    color: #333;
+}

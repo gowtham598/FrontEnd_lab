@@ -1,0 +1,39 @@
+.dashboard {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: system-ui, sans-serif;
+}
+
+.profile-card {
+  background: #17dc34;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.status.active {
+  color: green;
+  font-weight: bold;
+}
+
+.status.inactive {
+  color: red;
+}
+
+.status.pending {
+  color: orange;
+}
+
+.status-panel button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.status-panel button.active {
+  background: #007bff;
+  color: white;
+}
